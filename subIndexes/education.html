@@ -9,70 +9,76 @@
 </head>
 <body class="bg-info-subtle" style="min-height: 100vh; display: flex; flex-direction: column;">
 <div class="wrapper" style="flex: 1;">
-  <nav class="navbar navbar-expand-lg bg-body-secondary">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active"  href="../index.html">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">EDUCATION</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="workExperience.html">WORK HISTORY & LICENSES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">PUBLICATIONS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">GET IN TOUCH</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <!--NAV BAR-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Gadisa Merdasa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            EXPERIENCE
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./education.html">Education</a></li>
+                            <li><a class="dropdown-item" href="./workExperience.html">Work History</a></li>
+                            <li><a class="dropdown-item" href="#">Licenses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PUBLICATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">GET IN TOUCH</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    <!-- Navigation bar Ends here-->
   <section class="content">
     <div class="container">
-      <div class="text-dark">
-        <p>Ph.D. Candidate at University of Colorado Boulder in Structural Engineering & Structural Mechanics
-          from August 2023 to present.</p>
-        <p>MSc Degree in Structural Engineering from University of Colorado Boulder from August 2021 to May 2023.</p>
-        <p>BSc In Civil Engineering from Hawassa University from 2011 to 2016.</p>
-        <h6>Major courses taken:</h6>
+      <div class="text-dark" style="padding-top: 80px">
+        <h2>Education:</h2>
+        <h6>Ph.D. Candidate at University of Colorado Boulder in Structural Engineering & Structural Mechanics
+          from August 2023 to present.</h6><br>
+        <h6>MSc Degree in Structural Engineering from University of Colorado Boulder from August 2021 to May 2023.</h6><br>
+        <h6>BSc In Civil Engineering from Hawassa University from 2011 to 2016.</h6><br>
+        <h4>Major courses taken:</h4>
         <ul>
-          <p>Advanced Reinforced Concrete Design (Pre-stressed concrete), University of Colorado Boulder.</p>
-          <p>Advanced design of Steel Structures, University of Colorado Boulder.</p>
-          <p>Design of masonry Structures, University of Colorado Boulder.</p>
-          <p>Design of wood structures, University of Colorado Boulder.</p>
-          <p>Earthquake Engineering, University of Colorado Boulder.</p>
-          <p>Finite Element Analysis, University of Colorado Boulder.</p>
-          <p>Matrix structural analysis, University of Colorado Boulder.</p>
+          <li><p>Advanced Reinforced Concrete Design (Pre-stressed concrete), University of Colorado Boulder.</p></li>
+          <li><p>Advanced design of Steel Structures, University of Colorado Boulder.</p></li>
+          <li><p>Design of masonry Structures, University of Colorado Boulder.</p></li>
+          <li><p>Design of wood structures, University of Colorado Boulder.</p></li>
+          <li><p>Earthquake Engineering, University of Colorado Boulder.</p></li>
+          <li><p>Finite Element Analysis, University of Colorado Boulder.</p></li>
+          <li><p>Matrix structural analysis, University of Colorado Boulder.</p></li>
         </ul>
       </div>
     </div>
   </section>
 </div>
-<footer class="bg-body-tertiary text-center text-lg-start">
-  <!-- Footer content -->
-  <div class="text-center p-3" style="background-color: rgba(255, 255, 255);">
-    <a  href="https://www.linkedin.com/in/gadisaw1" style="text-decoration: none"><img src="../images/linkedIn-icon.png"
-                                                                                         alt="https://icons8.com/icon/13930/linkedin"> LinkedIn</a>
-    <p class="copy-right">&copy; <script>document.write(new Date().getFullYear())</script> Gadisa W Merdassa.
-      All rights reserved. This beautiful website is designed by
-      <a href="https://mogesneway.github.io/newaymoges.io" target="_blank" style="text-decoration: none">Neway Moges</a></p>
-  </div>
-</footer>
+    <footer class="bg-body-tertiary text-center text-lg-start">
+      <!-- Footer content -->
+      <div class="text-center p-3" style="background-color: rgba(255, 255, 255);">
+        <a  href="https://www.linkedin.com/in/gadisaw1" style="text-decoration: none"><img src="../images/linkedIn-icon.png"
+                                                                                             alt="https://icons8.com/icon/13930/linkedin"> LinkedIn</a>
+        <p class="copy-right">&copy; <script>document.write(new Date().getFullYear())</script> Gadisa W Merdassa.
+          All rights reserved. This beautiful website is designed by
+          <a href="https://mogesneway.github.io/newaymoges.io" target="_blank" style="text-decoration: none">Neway Moges</a></p>
+      </div>
+    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
 </body>
 </html>

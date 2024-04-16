@@ -1,0 +1,19 @@
+/* Sticky footer */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+    margin-bottom: -50px; /* Equal to footer height */
+  }
+  .footer {
+    height: 50px;
+    background-color: rgba(255, 255, 255);
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+  }
