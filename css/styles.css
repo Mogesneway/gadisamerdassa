@@ -17,3 +17,11 @@
     width: 100%;
     clear: both;
   }
+  #footed{
+    text-decoration-color: #0a3622;
+    margin-bottom: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
