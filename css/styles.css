@@ -27,6 +27,7 @@ p{
   }
 }
 h6{
-  line-height: 2;
+  line-height: 4;
+  padding: 2px;
   display: block;
 }
