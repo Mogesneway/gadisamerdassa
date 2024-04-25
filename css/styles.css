@@ -11,3 +11,9 @@ footer {
 p{
   line-height: 2;
 }
+.work-history{
+}
+
+.work-history ul {
+  padding-left: 50px;
+}
